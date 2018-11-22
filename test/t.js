@@ -1,4 +1,4 @@
-require('../lib/server');
+// require('../lib/server');
 
 s = require('../lib/client');
 
