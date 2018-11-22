@@ -1,12 +1,12 @@
 {
-  "name": "nodejs-message-center",
+  "name": "message-proxy",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
   },
   "bin": {
-    "nmc": "index.js"
+    "mp": "index.js"
   },
   "author": "",
   "license": "ISC",
