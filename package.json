@@ -3,13 +3,11 @@
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "bin": {
     "mp": "index.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  }
+  "dependencies": {}
 }

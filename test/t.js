@@ -2,8 +2,10 @@
 
 s = require('../lib/client');
 
-const evt = s.config(10001, 'localhost', 'testConnected');
+s.config(10002, 'localhost', 'testConnected');
 
 s.on('cmd', (cmd, a) => {
   console.log(cmd, a);
 });
+
+s.write('hello')
