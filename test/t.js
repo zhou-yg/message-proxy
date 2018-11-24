@@ -8,4 +8,6 @@ s.on('cmd', (cmd, a) => {
   console.log(cmd, a);
 });
 
-s.write('hello')
+console.log('hello');
+
+// s.write('hello')
