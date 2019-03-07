@@ -7,7 +7,7 @@
 
 > npx run mp [port] [name]
 
-## send
+## visit
 
 > localhost:[port]/a/b/c
 
@@ -22,7 +22,7 @@ let s = require('../lib/client');
 s.config([port], [remote host], [my-client-name]);
 
 s.on('cmd', (cmd, a) => {
-  console.log(cmd, a); // -> /a/b/c
+  console.log(cmd, a); // output -> a, /b/c
 });
 
 ```
